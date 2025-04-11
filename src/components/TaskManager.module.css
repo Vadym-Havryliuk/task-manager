@@ -1,0 +1,25 @@
+.taskManager {
+    display: grid;
+    margin: 100px auto;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 14px;
+}
+
+.taskManagerColumn {
+    text-align: center;
+    min-height: 200px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: inset 0px 0px 50px 50px rgb(197, 197, 197);
+    border: 2px solid grey;
+}
+
+.header {
+    background-color: rgb(213, 213, 213);
+    padding: 20px 10px;
+    color: brown;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: inset 0px 0px 4px 3px grey;
+    margin: 0;
+}
+
